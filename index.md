@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hey, I’m Daniel. I’m an IT student and offensive security enthusiast who enjoys breaking things (legally), getting stuck, and eventually figuring out why. I write about penetration testing, CTFs, certifications, and whatever technical rabbit hole I’m exploring next.
