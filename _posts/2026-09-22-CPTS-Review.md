@@ -1,3 +1,5 @@
+## CPTS-Review
+
 ## Overview
 
 I passed the Hack The Box Certified Penetration Testing Specialist (CPTS) exam in August 2026. Since then, quite a few people have asked me how I prepared and what the exam was like. Instead of answering the same questions over and over, I thought I'd put everything into one blog post and keep my notes and resources in one place.
