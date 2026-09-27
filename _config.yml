@@ -15,7 +15,7 @@ linkedin_username: "daniel-tshabalala-aa0a1a223"
 #youtube_username: username
 #googleplus_username: +username
 
-theme: "minima"
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 
 rss: rss
 
