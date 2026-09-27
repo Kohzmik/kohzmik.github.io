@@ -1,39 +1,87 @@
-title: "Rabbit Holes & Root Shells"
-author: "Daniel Tshabalala"
-description: "A cool blog of sorts" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
-
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "danieltshabalala3@gmail.com"
-#twitter_username: "twitteruser"
-github_username: "Kohzmik"
-linkedin_username: "daniel-tshabalala-aa0a1a223"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
-
 remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 
-rss: rss
 
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
+minimal_mistakes_skin: "dark"
+
+
+locale: "en"
+title: "Rabbit Holes & Root Shells"
+title_separator: "-"
+subtitle: "Offensive Security & Other Rabbit Holes"
+
+description: >-
+  Writeups and thoughts on penetration testing, CTFs,
+  certifications, offensive security, and whatever technical
+  rabbit hole I'm exploring next.
+
+url: "https://kohzmik.github.io"
+baseurl: ""
+
+repository: "Kohzmik/kohzmik.github.io"
+
+
+author:
+  name: "Daniel Tshabalala"
+  bio: "IT student, offensive security enthusiast, and CTF creator."
+  location: "South Africa"
+
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Kohzmik"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-tshabalala-aa0a1a223"
+
+
+search: true
+breadcrumbs: true
+
+permalink: /:categories/:title/
+
+paginate: 5
+paginate_path: /page:num/
+
+include:
+  - _pages
+
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
 
 defaults:
+
+  # Blog posts
   - scope:
       path: ""
-      type: post
+      type: posts
     values:
-      tags: Other
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      show_date: true
+      toc: true
+      toc_sticky: true
+
+  # Normal pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
