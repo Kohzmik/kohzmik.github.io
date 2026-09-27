@@ -1,4 +1,14 @@
-## CPTS-Review
+---
+title: "HTB CPTS Review"
+date: 2026-09-22
+categories:
+  - Certifications
+tags:
+  - CPTS
+  - Hack The Box
+  - Penetration Testing
+excerpt: "My experience preparing for and taking the Hack The Box Certified Penetration Testing Specialist exam."
+---
 
 ## Overview
 
